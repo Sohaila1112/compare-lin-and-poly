@@ -1,4 +1,4 @@
-import numpy as np
+` import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.interpolate import pchip
@@ -6,8 +6,9 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-//
+from sklearn.model_selection import train_t`
+
+///
 
 class my_gradient:
     def __init__(self, X,Y, lrate, initial_b, weights, niteration):
